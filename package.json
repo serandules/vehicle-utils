@@ -1,0 +1,20 @@
+{
+  "name": "vehicle-utils",
+  "description": "vehicle-utils",
+  "version": "0.0.0",
+  "author": {
+    "name": "serandives",
+    "email": "serandives@gmail.com"
+  },
+  "dependencies": {
+    "logger": "serandules/logger#master",
+    "utils": "serandules/utils#master",
+    "lodash": "4.17.4",
+    "model-vehicle-makes": "serandules/model-vehicle-makes#master",
+    "model-vehicle-models": "serandules/model-vehicle-models#master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/serandules/vehicle-utils.git"
+  }
+}
