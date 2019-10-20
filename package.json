@@ -9,7 +9,7 @@
   "dependencies": {
     "logger": "serandules/logger#master",
     "utils": "serandules/utils#master",
-    "lodash": "4.17.4",
+    "lodash": "4.17.15",
     "model-vehicle-makes": "serandules/model-vehicle-makes#master",
     "model-vehicle-models": "serandules/model-vehicle-models#master"
   },
