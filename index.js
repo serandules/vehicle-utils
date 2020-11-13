@@ -1,16 +1,16 @@
 var _ = require('lodash');
-var utils = require('utils');
-var VehicleMakes = require('model-vehicle-makes');
-var VehicleModels = require('model-vehicle-models');
+
+var sera = require('sera');
+var utils = sera.utils;
 
 exports.allMakes = function (done) {
-  VehicleMakes.find({}).select('id title').exec(function (err, makes) {
+  sera.model('vehicle-makes').find({}).select('id title').exec(function (err, makes) {
     if (err) {
       return done(err);
     }
     makes = _.map(makes, utils.json);
     var makesById = _.keyBy(makes, 'id');
-    VehicleModels.find({}).select('id title make').exec(function (err, models) {
+    sera.model('vehicle-models').find({}).select('id title make').exec(function (err, models) {
       if (err) {
         return done(err);
       }
