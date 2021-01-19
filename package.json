@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "logger": "serandules/logger#master",
-    "utils": "serandules/utils#master",
     "lodash": "4.17.4",
     "sera": "serandules/sera#master"
   },
